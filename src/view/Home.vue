@@ -7,6 +7,7 @@
     <button @click="handleRadioClick">单选框</button>
     <button @click="handleCheckboxClick">复选框</button>
     <button @click="handleFormClick">表单</button>
+    <button @click="handleInputNumberClick">计数器</button>
 
     <router-link to="/ButtonPage"></router-link>
     <router-link to="/DialogPage"></router-link>
@@ -15,6 +16,7 @@
     <router-link to="/RadioPage"></router-link>
     <router-link to="/CheckboxPage"></router-link>
     <router-link to="/FormPage"></router-link>
+    <router-link to="/InputNumberPage"></router-link>
   </div>
 </template>
 
@@ -42,6 +44,9 @@ export default {
     },
     handleFormClick() {
       this.$router.push({ name: "FormPage" });
+    },
+    handleInputNumberClick() {
+      this.$router.push({ name: "InputNumberPage" });
     },
   },
 };

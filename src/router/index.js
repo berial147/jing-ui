@@ -60,6 +60,11 @@ const routes = [
     name: 'FormPage',
     component: () => import('@/view/FormPage.vue')
   },
+  {
+    path: '/inputNumberPage',
+    name: 'InputNumberPage',
+    component: () => import('@/view/InputNumberPage.vue')
+  },
 ]
 
 const router = new VueRouter({

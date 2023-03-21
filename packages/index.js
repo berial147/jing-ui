@@ -12,6 +12,7 @@ import CheckboxGroup from './CheckboxGroup'
 import Switch from './Switch'
 import Form from './Form'
 import FormItem from './FormItem'
+import InputNumber from './InputNumber'
 import './font/src/ant-design/iconfont.css'
 import './font/src/taobao/iconfont.css'
 
@@ -26,7 +27,8 @@ const components = [
   CheckboxGroup,
   Switch,
   Form,
-  FormItem
+  FormItem,
+  InputNumber
 ]
 
 const install = function (Vue) {
